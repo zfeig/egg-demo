@@ -1,0 +1,36 @@
+2018-01-22 14:38:07,006 WARN 9388 [-/127.0.0.1/-/19ms POST /post] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-01-22 14:38:07,010 WARN 9388 [-/127.0.0.1/-/22ms POST /post] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (F:\egg\demo2\node_modules\koa\lib\context.js:92:11)
+    at Object.assertCsrf (F:\egg\demo2\node_modules\egg-security\app\extend\context.js:139:17)
+    at csrf (F:\egg\demo2\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at F:\egg\demo2\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+    at session (F:\egg\demo2\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+message: 'missing csrf token'
+pid: 9388
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 14:38:45,151 WARN 9388 [-/127.0.0.1/-/1ms POST /post] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-01-22 14:38:45,153 WARN 9388 [-/127.0.0.1/-/2ms POST /post] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (F:\egg\demo2\node_modules\koa\lib\context.js:92:11)
+    at Object.assertCsrf (F:\egg\demo2\node_modules\egg-security\app\extend\context.js:148:17)
+    at csrf (F:\egg\demo2\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at F:\egg\demo2\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+    at session (F:\egg\demo2\node_modules\koa-session\index.js:41:13)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+message: 'invalid csrf token'
+pid: 9388
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 16:23:34,763 INFO 1416 [-/127.0.0.1/-/13ms GET /detail/1520] [controller.home] detail id is:1520,result is:[{"id":1520,"channel":"ebay","site":"US","account":"toysmall2017 eBay","login_img":"upload/report/back_singin/201711201007412253.png","login_status":1,"uid":2253,"create_time":1511143661}]
+2018-01-22 16:24:22,040 INFO 9696 [-/127.0.0.1/-/14ms GET /detail/1520] [controller.home] detail id is:1520,result is:[{"id":1520,"channel":"ebay","site":"US","account":"toysmall2017 eBay","login_img":"upload/report/back_singin/201711201007412253.png","login_status":1,"uid":2253,"create_time":1511143661}]
+2018-01-22 16:34:42,588 INFO 8912 [-/127.0.0.1/-/10ms GET /detail/1520] [controller.home] detail id is:1520,result is:[{"id":1520,"channel":"ebay","site":"US","account":"toysmall2017 eBay","login_img":"upload/report/back_singin/201711201007412253.png","login_status":1,"uid":2253,"create_time":1511143661}]
+2018-01-22 16:34:44,240 INFO 8912 [-/127.0.0.1/-/6ms GET /detail/1520] [controller.home] detail id is:1520,result is:[{"id":1520,"channel":"ebay","site":"US","account":"toysmall2017 eBay","login_img":"upload/report/back_singin/201711201007412253.png","login_status":1,"uid":2253,"create_time":1511143661}]
