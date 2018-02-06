@@ -221,3 +221,53 @@ name: 'ER_BAD_FIELD_ERRORError'
 pid: 8844
 hostname: MRW4JQQKZ94BWUA
 
+2018-02-05 11:53:29,539 ERROR 10508 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10508
+hostname: MRW4JQQKZ94BWUA
+
+2018-02-05 11:53:30,577 ERROR 10508 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10508
+hostname: MRW4JQQKZ94BWUA
+
+2018-02-05 11:53:44,027 ERROR 10508 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10508
+hostname: MRW4JQQKZ94BWUA
+
+2018-02-05 11:53:45,408 ERROR 10508 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10508
+hostname: MRW4JQQKZ94BWUA
+
+2018-02-05 13:13:04,750 ERROR 10680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 10680
+hostname: MRW4JQQKZ94BWUA
+
