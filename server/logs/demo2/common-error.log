@@ -1,0 +1,223 @@
+2018-01-22 10:03:38,401 ERROR 9456 [-/127.0.0.1/-/1ms GET /news] nodejs.ReferenceError: thix is not defined
+    at HomeController.news (F:\egg\demo2\app\controller\home.js:14:3)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9456
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:36:47,276 ERROR 5588 [-/127.0.0.1/-/9ms GET /api] nodejs.ReferenceError: ctx is not defined
+    at HomeController.api (F:\egg\demo2\app\controller\home.js:32:16)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 5588
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:37:18,442 ERROR 8292 [-/127.0.0.1/-/13ms GET /api] nodejs.TypeError: Cannot read property 'news' of undefined
+    at HomeController.api (F:\egg\demo2\app\controller\home.js:32:39)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 8292
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:39:00,705 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:39:21,809 ERROR 9648 [-/127.0.0.1/-/10ms GET /api] nodejs.TypeError: Cannot read property 'baidu' of undefined
+    at NewsService.list (F:\egg\demo2\app\service\news.js:5:29)
+    at HomeController.api (F:\egg\demo2\app\controller\home.js:32:44)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9648
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:40:42,266 ERROR 9868 [-/127.0.0.1/-/10ms GET /api] nodejs.TypeError: Cannot read property 'baidu' of undefined
+    at NewsService.list (F:\egg\demo2\app\service\news.js:5:29)
+    at HomeController.api (F:\egg\demo2\app\controller\home.js:32:44)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9868
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 10:57:21,197 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:05:33,475 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:41:28,099 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:56:43,558 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:57:25,876 ERROR 9680 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9680
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:58:17,298 ERROR 9228 [-/127.0.0.1/-/14ms GET /conf] nodejs.TypeError: this is not iterable
+    at HomeController.conf (F:\egg\demo2\app\controller\home.js:41:24)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9228
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 11:58:19,604 ERROR 9228 [-/127.0.0.1/-/6ms GET /conf] nodejs.TypeError: this is not iterable
+    at HomeController.conf (F:\egg\demo2\app\controller\home.js:41:24)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (F:\egg\demo2\node_modules\egg-core\lib\loader\mixin\controller.js:84:20)
+    at Object.callFn (F:\egg\demo2\node_modules\egg-core\lib\utils\index.js:44:21)
+    at wrappedController (F:\egg\demo2\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at F:\egg\demo2\node_modules\koa-router\lib\router.js:345:16
+    at dispatch (F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at F:\egg\demo2\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9228
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 13:21:45,164 ERROR 7928 [-/127.0.0.1/-/8ms GET /conf] nodejs.ReferenceError: ctx is not defined
+    at infoMiddleware (F:\egg\demo2\app\middleware\info.js:3:16)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+    at robotMiddleware (F:\egg\demo2\app\middleware\robot.js:9:13)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+    at i18n (F:\egg\demo2\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+    at next (F:\egg\demo2\node_modules\koa-compose\index.js:43:18)
+    at dispatch (F:\egg\demo2\node_modules\koa-compose\index.js:42:32)
+
+pid: 7928
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 14:50:24,758 ERROR 8368 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:999:13)
+    at TCP.onread (net.js:629:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 8368
+hostname: MRW4JQQKZ94BWUA
+
+2018-01-22 15:33:56,582 ERROR 8844 [-/127.0.0.1/-/9ms GET /list] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'loginb_img' in 'field list'
+    at Query.Sequence._packetToError (F:\egg\demo2\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (F:\egg\demo2\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (F:\egg\demo2\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (F:\egg\demo2\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (F:\egg\demo2\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (F:\egg\demo2\node_modules\mysql\lib\Connection.js:103:28)
+    at Socket.emit (events.js:159:13)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    --------------------
+    at Pool.query (F:\egg\demo2\node_modules\mysql\lib\Pool.js:199:23)
+    at F:\egg\demo2\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (F:\egg\demo2\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (F:\egg\demo2\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (F:\egg\demo2\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (F:\egg\demo2\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (F:\egg\demo2\node_modules\co\index.js:65:19)
+    at F:\egg\demo2\node_modules\co\index.js:54:5
+    sql: SELECT id,channel,site,account,loginb_img,login_status,uid,create_time FROM back_singin 
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'loginb_img\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'SELECT id,channel,site,account,loginb_img,login_status,uid,create_time FROM back_singin '
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 8844
+hostname: MRW4JQQKZ94BWUA
+
