@@ -1,12 +1,12 @@
 <template>
   <div class="helloDetail">
    <h3>vuex demo /detail/{{this.$route.params.id}}</h3>
-     <div>
-            <p>{{detail(this.$route.params.id).title}} &nbsp; {{detail(this.$route.params.id).time}}</p>
-            <p>{{detail(this.$route.params.id).desc}}</p>
+     <div v-if="item">
+            <p>{{item.title}} &nbsp; {{item.time}}</p>
+            <p>{{item.desc}}</p>
      </div>
      <div class="item">
-        {{item}}
+        {{detail(this.$route.params.id)}}
      </div>
   </div>
 </template>
