@@ -1,6 +1,6 @@
 <template>
   <div class="helloDetail">
-   <h3>vuex demo /about</h3>
+   <h3>vuex demo /cate</h3>
      <div>
             <p>this is cate page</p>
             <div>
