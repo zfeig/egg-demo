@@ -4,6 +4,11 @@ import HelloWorld from '@/components/HelloWorld'
 import HelloList from '@/components/HelloList'
 import HelloDetail from '@/components/HelloDetail'
 import HelloAbout from '@/components/HelloAbout'
+import HelloCate from '@/components/HelloCate'
+import CateSports from '@/components/cate/CateSports'
+import CateNews from '@/components/cate/CateNews'
+import CateMoive from '@/components/cate/CateMoive'
+import CateEconomics from '@/components/cate/CateEconomics'
 
 Vue.use(Router)
 
@@ -28,6 +33,33 @@ export default new Router({
       path: '/about',
       name: 'HelloAbout',
       component: HelloAbout
+    },
+    {
+      path:'/cate',
+      name:'HelloCate',
+      component:HelloCate,
+      children: [
+        {
+          path:'sports',
+          name:'CateSports',
+          component:CateSports
+        },
+        {
+          path:'news',
+          name:'CateNews',
+          component:CateNews
+        },
+        {
+          path:'moive',
+          name:'CateMoive',
+          component:CateMoive
+        },
+        {
+          path:'economics',
+          name:'CateEconomics',
+          component:CateEconomics
+        }
+      ]
     }
   ]
 })
