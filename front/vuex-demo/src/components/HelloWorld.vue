@@ -14,7 +14,9 @@ import {mapState,mapActions} from 'vuex'
 export default {
   name: 'HelloWorld',
   computed:{
-    ...mapState(['count'])
+    ...mapState({
+      count: state => state.count
+    })
   },
    methods: {
     ...mapActions({
