@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-   <h3>vuex</h3>
+   <h3>vuex demo</h3>
      <div>
-              count: {{ count }}
+              <div class="result">count: {{ count }}  double: {{double}} </div>
               <button @click="add">+ADD</button>
               <button @click="dec">-DECR</button>
      </div>
@@ -10,13 +10,16 @@
 </template>
 
 <script>
-import {mapState,mapActions} from 'vuex'
+import {mapState,mapGetters,mapActions} from 'vuex'
 export default {
   name: 'HelloWorld',
   computed:{
     ...mapState({
       count: state => state.count
-    })
+    }),
+    ...mapGetters({
+             double: 'double'
+        })
   },
    methods: {
     ...mapActions({
@@ -43,4 +46,5 @@ li {
 a {
   color: #42b983;
 }
+.result{margin-bottom: 2em;}
 </style>

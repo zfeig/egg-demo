@@ -11,6 +11,9 @@ const store = {
 	  state.count--;
 	}
   },
+  getters: {
+  	double: state => state.count*2
+  },
   actions: {
     add({ commit }) {
       setTimeout(() => {
