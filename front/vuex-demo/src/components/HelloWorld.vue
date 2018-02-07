@@ -1,10 +1,11 @@
 <template>
   <div class="hello">
-   <h3>vuex demo</h3>
+   <h3>vuex demo /</h3>
      <div>
               <div class="result">count: {{ count }}  double: {{double}} </div>
               <button @click="add">+ADD</button>
               <button @click="dec">-DECR</button>
+               <router-view></router-view>
      </div>
   </div>
 </template>

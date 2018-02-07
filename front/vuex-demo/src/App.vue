@@ -2,6 +2,12 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <div class="result">
+                <br>
+                 <router-link to="/">Home</router-link>
+                 <router-link to="/list">Go to List</router-link>
+                 <router-link to="/about">Go to about</router-link>
+    </div>
   </div>
 </template>
 
