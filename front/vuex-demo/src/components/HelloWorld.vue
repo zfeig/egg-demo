@@ -10,14 +10,14 @@
 </template>
 
 <script>
-import Vuex from 'vuex'
+import {mapState,mapActions} from 'vuex'
 export default {
   name: 'HelloWorld',
   computed:{
-    ...Vuex.mapState(['count'])
+    ...mapState(['count'])
   },
    methods: {
-    ...Vuex.mapActions({
+    ...mapActions({
       add: 'add',
       dec: 'decr'
     })
