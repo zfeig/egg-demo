@@ -9,6 +9,7 @@ import CateSports from '@/components/cate/CateSports'
 import CateNews from '@/components/cate/CateNews'
 import CateMoive from '@/components/cate/CateMoive'
 import CateEconomics from '@/components/cate/CateEconomics'
+import Elem from '@/components/elem/Elem' 
 
 Vue.use(Router)
 
@@ -18,6 +19,10 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path:'/elem',
+      component: Elem
     },
     {
       path: '/list',
